@@ -1,0 +1,118 @@
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #FFF;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
+#root{
+    height: 100%;
+    background: url(../img/list_bg.jpg) center center / cover;
+    overflow: auto;
+}
+.card{
+    border-radius: 1rem !important;
+}
+.card .card-img-top{
+    border-bottom: solid 3px #3b3c3d;
+    background: url(../img/pokeball-icon-transparent-34.png) center center / contain;
+}
+.card .card-title{
+    color: #000;
+    margin-bottom: 1rem;
+}
+.type h3{
+    color: #FFF;
+    font-family: cursive;
+    border-radius: 20rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.type.grass h3{
+    background: green;
+}
+.type.poison h3{
+    background: purple;
+}
+.type.water h3{
+    background: blue;
+}
+.type.psychic h3{
+    background: grey;
+}
+.type.fire h3{
+    background: red;
+}
+.type.bug h3{
+    background: rgb(2, 183, 2);
+}
+.type.flying h3{
+    background: rgb(0, 199, 254);
+}
+.type.normal h3{
+    background: rgb(161, 161, 161);
+}
+.type.electric h3{
+    background: rgb(223, 223, 11);
+}
+.type.ground h3{
+    background: brown;
+}
+.type.fairy h3{
+    background: rgb(253, 145, 163);
+}
+.type.fighting h3{
+    background: rgb(163, 62, 62);
+}
+.type.steel h3{
+    background: silver;
+}
+.type.ice h3{
+    background: rgb(95, 220, 216);
+}
+.type.ghost h3{
+    background: rgb(72, 0, 72);
+}
+.type.rock h3{
+    background: rgb(78, 78, 78);
+}
+
+.detail-wrapper h1{
+    color: #FFF;
+}
+.detail-img img{
+    background: rgba(0,0,0,.5);
+    border: solid 4px #FFF;
+    border-radius: 50%;
+}
+.detail-text{
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background: rgba(0,0,0,.5);
+    border: solid 4px #FFF;
+    border-radius: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.stat-wrapper img{
+    max-width: 100px;
+}
+.stat-wrapper h3{
+    margin: 0;
+    color: white;
+    text-align: left;
+}
